@@ -1,0 +1,305 @@
+.section {
+    text-align: center;
+}
+
+#section0 {
+    background-color: #ABECF1;
+}
+
+#section1 {
+    background-color: #437584;
+}
+
+#section2 {
+    background-color: #02495D;
+}
+
+#section3 {
+    background-color: #313B3A;
+}
+
+.footer {
+    background-color: green;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.icon {
+    text-align: center;
+    font-size: 40px;
+    color:white;
+}
+
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+        left: 0px;
+        top: 1000px;
+    }
+
+    50% {
+        opacity: 0;
+        left: 100px;
+        top: 500px;
+    }
+
+    100% {
+        opacity: 1;
+        left: 500px;
+        top: 0px;
+    }
+
+}
+
+.blink-image {
+    animation: blink normal 15s infinite ease-in-out;
+    position: relative;
+}
+
+@keyframes move {
+    0% {
+        opacity: 0;
+        left: 1000px;
+        top: 1000px;
+    }
+
+    50% {
+        opacity: 1;
+        left: 500px;
+        top: 500px;
+    }
+
+    100% {
+        opacity: 0;
+        left: 1000px;
+        top: 0px;
+    }
+
+}
+
+.move-image {
+    animation: move normal 20s infinite ease-in-out;
+    position: relative;
+
+}
+
+@keyframes bm {
+    0% {
+        opacity: 1;
+        left: 2000px;
+        top: 1000px;
+    }
+
+    50% {
+        opacity: 0;
+        left: 700px;
+        top: 700px;
+    }
+
+    100% {
+        opacity: 1;
+        left: 10000px;
+        top: 0px;
+    }
+
+}
+
+.bm-image {
+    animation: bm normal 10s infinite ease-in-out;
+    position: relative;
+}
+
+@keyframes lb {
+    0% {
+        opacity: 1;
+        left: 3000px;
+        top: 1000px;
+    }
+
+    50% {
+        opacity: 0;
+        left: 300px;
+        top: 800px;
+    }
+
+    100% {
+        opacity: 1;
+        left: 800px;
+        top: 0px;
+    }
+
+}
+
+.lb-image {
+    animation: lb normal 25s infinite ease-in-out;
+    position: relative;
+}
+
+@keyframes ff {
+    0% {
+        opacity: 0;
+        left: 1300px;
+        top: 1000px;
+    }
+
+    50% {
+        opacity: 1;
+        left: 100px;
+        top: 600px;
+    }
+
+    100% {
+        opacity: 0;
+        left: 500px;
+        top: 0px;
+    }
+
+}
+
+.ff-image {
+    animation: ff normal 30s infinite ease-in-out;
+    position: relative;
+}
+
+@keyframes gb {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+.gb-image {
+    animation: gb normal 5s infinite;
+}
+
+#footer {
+    position: fixed;
+    height: 50px;
+    display: block;
+    width: 100%;
+    background: #027F52;
+    z-index: 9;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 20px 0 0 0;
+    bottom: 0px;
+}
+
+
+
+
+.bunny {
+    height: 100px;
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 11%;
+}
+
+
+
+
+
+.bunnyleft {
+    height: 100px;
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 21%;
+}
+
+.heart {
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 19%;
+    height: 50px;
+
+}
+
+.path {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+
+}
+
+.moon {
+    margin: 0;
+    position: relative;
+    top: 0%;
+    left: 40%;
+  
+}
+
+.moon2 {
+    margin: 0;
+    position: relative;
+    top: 30%;
+    left: 40%;
+  
+}
+
+.owl {
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+  
+}
+
+.hoo {
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    color: white;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+@keyframes sun {
+    0% {
+
+        left: 350px;
+        top: 0px;
+    }
+
+    50% {
+
+        left: 350px;
+        top: 150px;
+    }
+
+    100% {
+
+        left: 350px;
+        top: 300px;
+    }
+
+}
+
+.sun-image {
+    animation: sun normal 10s forwards ease-in-out;
+    position: relative;
+}
+

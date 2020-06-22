@@ -29,8 +29,14 @@ h1 {
 }
 
 p {
-    font-family: 'Sedgwick Ave Display', cursive;
+   font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.hoo {
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 30px;
     text-align: center;
     color: white;
 }
